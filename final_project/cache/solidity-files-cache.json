@@ -1,0 +1,301 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ERC721.sol": {
+      "lastModificationDate": 1702610457246,
+      "contentHash": "784228a597cbdebe7dfa8c5a46c3f375",
+      "sourceName": "contracts/ERC721.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ZombieOwnership.sol": {
+      "lastModificationDate": 1702610573962,
+      "contentHash": "db36248b51aae357bf3e878e2efbe8d2",
+      "sourceName": "contracts/ZombieOwnership.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieAttack.sol",
+        "./ERC721.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "ZombieOwnership"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ZombieAttack.sol": {
+      "lastModificationDate": 1702610494209,
+      "contentHash": "4c0bda8bb8ff2a0ae5fd1589713bd463",
+      "sourceName": "contracts/ZombieAttack.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "ZombieAttack"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/SafeMath.sol": {
+      "lastModificationDate": 1702610470343,
+      "contentHash": "421c99a86ada6dedb2be46e4f49c175a",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "SafeMath16",
+        "SafeMath32"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ZombieHelper.sol": {
+      "lastModificationDate": 1702610553852,
+      "contentHash": "34e44020a3c571fc4eb25ae07984c9df",
+      "sourceName": "contracts/ZombieHelper.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieFeeding.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "ZombieHelper"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ZombieFeeding.sol": {
+      "lastModificationDate": 1702610555638,
+      "contentHash": "be5c1fbded87515d3c691a3ca433c80a",
+      "sourceName": "contracts/ZombieFeeding.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ZombieFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "KittyInterface",
+        "ZombieFeeding"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/ZombieFactory.sol": {
+      "lastModificationDate": 1702610526728,
+      "contentHash": "e8bf7074a73a72cffe8aa5649b8bcf05",
+      "sourceName": "contracts/ZombieFactory.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "ZombieFactory"
+      ]
+    },
+    "/Users/alexcullen/fall23/pd/final_project/contracts/Ownable.sol": {
+      "lastModificationDate": 1702610465146,
+      "contentHash": "9d8842f1ef0e852d8f68659ab9a0dc70",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.4.25",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.25"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    }
+  }
+}
